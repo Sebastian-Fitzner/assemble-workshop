@@ -1,4 +1,12 @@
-## README: assemble-workshop-nummero-uno | version="0.1.0"
+## Assemble Workshop Slides| version="0.1.0"
+
+---------------------------------------------------
+
+## Overview
+
+Slides for Assemble Workshop in german. The presentation is still in progress.
+
+Translation will be released soon. 
 
 ---------------------------------------------------
 ## Requirements for FE
@@ -19,28 +27,3 @@ This project builds on following setup (please read requirements and getting sta
 - Git-commit-messages in english please.
 - All issues are recorded in [Jira](#).
 - Jira-Issues are commented in german/english.
-
----------------------------------------------------
-## Browser-Support
-- all modern desktop browsers: Firefox, Chrome, IE and Safari/Mac latest version
-- also: IE 10, 9 and 8
-- all modern mobile browsers: iOS and Android latest two versions
-
----------------------------------------------------
-## Responsive-Webdesign-Support
-- Desktop
-- Tablet
-- Phone
-
-### Breakpoints
-- $small-range: (0, 640px); // smartphone portrait and smartphone landscape
-- $medium-range: (641px, 768px); // between smartphone landscape and tablet portrait
-- $large-range: (769px, 1022px); // only desktop
-- $xlarge-range: (1023px, 1279px); // desktop and tablet landscape
-- $xxlarge-range: (1280px); // desktop
-
----------------------------------------------------
-## Team
-- TPM/PM:
-- Frontend:
-- Backend:
