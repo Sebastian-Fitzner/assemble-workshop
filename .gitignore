@@ -16,3 +16,6 @@ npm-debug.log
 node_modules
 .sass-cache
 .idea
+/_output
+/resources/bower-components
+/_dist
