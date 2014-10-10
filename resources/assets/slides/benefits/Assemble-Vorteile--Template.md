@@ -13,7 +13,7 @@
 
 <body>
 
-	@import "navigation.html";
+	@import "navigation.html"; <!-- CSS Syntax just because everyone knows it -->
 	
 	<!-- Page content
 	================================================== -->

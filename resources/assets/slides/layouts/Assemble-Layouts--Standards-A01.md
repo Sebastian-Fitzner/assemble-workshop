@@ -1,3 +1,7 @@
+# Aufgabe
+
+## Standard Layouts
+
 Definiere ein Layout und zwei Seiten (`index.hbs`, `subpage.hbs`) mit Dummy-Inhalten.
 
 Außerdem soll der Titel der Seite ebenfalls als `<h1>` im Layout ausgegeben werden.

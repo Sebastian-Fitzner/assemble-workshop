@@ -163,8 +163,8 @@ based on dark.css by Ivan Sagalaev
 
 pre code {
   display: block; padding: 0.5em;
-  background: #3F3F3F;
-  color: #DCDCDC;
+  background: #000;
+  color: #c0fffd;
 }
 
 pre .keyword,
@@ -176,13 +176,13 @@ pre .nginx .title,
 pre .request,
 pre .status,
 pre .clojure .attribute {
-  color: #E3CEAB;
+  color: #bbe30e;
 }
 
 pre .django .template_tag,
 pre .django .variable,
 pre .django .filter .argument {
-  color: #DCDCDC;
+  color: #00e2f5;
 }
 
 pre .number,
@@ -246,7 +246,7 @@ pre .attr_selector,
 pre .pseudo,
 pre .apache .cbracket,
 pre .tex .formula {
-  color: #CC9393;
+  color: #ffc80c;
 }
 
 pre .shebang,

@@ -1,13 +1,19 @@
-.reveal .slides .stack > section {
+.reveal .slides .stack > section,
+.reveal .slides > section {
 	text-align: left;
 	column-count: 1;
 	column-width: 100%;
 	&.markdown {
 		margin-bottom: 1em;
 	}
-	.column-single & {
-		column-count: 1;
-		column-width: 100%;
+	.columns-2 {
+		@include column-count(2);
+		@include column-width(50%);
+	}
+
+	&.small {
+		width: 60%;
+		margin-left: 20%;
 	}
 	.m20 & {
 		margin: 0 20%;
@@ -17,5 +23,61 @@
 	}
 	.m10 & {
 		margin: 0 10%;
+	}
+
+	p {
+		line-height: 140%;
+	}
+
+	&.exercise {
+		width: 70%;
+		margin-left: 15%;
+		background: #000;
+		color: #fff;
+		padding: 3%;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0px;
+			bottom: -50px;
+			width: 0;
+			height: 0;
+			border-top: 55px solid black;
+			border-right: 60px solid transparent;
+		}
+
+		h1, p, h2, h3, a {
+			color: #fff;
+		}
+
+		h1, p, h2, h3 {
+			text-align: left;
+		}
+
+		h1 {
+			font-size: 60px;
+			text-shadow: none;
+		}
+
+		h2 {
+			font-size: 40px;
+			text-transform: none;
+		}
+
+		h3 {
+			font-size: 35px;
+			display: block;
+			margin-top: 1em;
+		}
+
+		p {
+			line-height: 140%;
+		}
+
+		code {
+			background: #333;
+			font-family: Courier, monospace;
+		}
 	}
 }

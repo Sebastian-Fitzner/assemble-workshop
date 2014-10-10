@@ -43,7 +43,5 @@ $selectionColor: #fff;
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
-	background: $backgroundColor;
+	background: url("../img/greyzz.png") repeat;
 }
-
-
