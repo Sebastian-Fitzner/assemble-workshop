@@ -1,0 +1,21 @@
+.reveal .slides .stack > section {
+	text-align: left;
+	column-count: 1;
+	column-width: 100%;
+	&.markdown {
+		margin-bottom: 1em;
+	}
+	.column-single & {
+		column-count: 1;
+		column-width: 100%;
+	}
+	.m20 & {
+		margin: 0 20%;
+	}
+	.m15 & {
+		margin: 0 15%;
+	}
+	.m10 & {
+		margin: 0 10%;
+	}
+}
