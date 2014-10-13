@@ -10,14 +10,14 @@ Reveal.initialize({
 	fragments: true,
 	overview: true,
 
-	 // Transition style
-    transition: 'zoom', // default/cube/page/concave/zoom/linear/fade/none
+	// Transition style
+	transition: 'zoom', // default/cube/page/concave/zoom/linear/fade/none
 
-    // Transition speed
-    transitionSpeed: 'fast', // default/fast/slow
+	// Transition speed
+	transitionSpeed: 'fast', // default/fast/slow
 
-    // Transition style for full page slide backgrounds
-    backgroundTransition: 'zoom', // default/none/slide/concave/convex/zoom
+	// Transition style for full page slide backgrounds
+	backgroundTransition: 'zoom', // default/none/slide/concave/convex/zoom
 
 	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 	transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
