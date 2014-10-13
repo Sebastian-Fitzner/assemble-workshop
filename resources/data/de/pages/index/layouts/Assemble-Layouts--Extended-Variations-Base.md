@@ -2,7 +2,7 @@ Bei diesen Ansatz werden mehrere Layouts miteinander kombiniert.
 
 #### Base Layout
 
-Das Base Layout beinhaltet alle Standard-Bereiche. Die Bereiche können dann mit anderen Layouts erweitert werden:
+Das Base Layout beinhaltet alle Standard-Bereiche. Die Bereiche können dann mit anderen Layouts erweitert werden.
 
 #### Sub-Layout
 

@@ -2,4 +2,4 @@ Nun möchten wir eine bestimmte Region mit einer Suchleiste erweitern. Das Ganze
 
 {{embed 'resources/data/code/best-practices/templating/page--extended--header.hbs'}}
 
-Hier sieht man im Übrigen, dass wir einen `mode` zu unserem `extend` hinzugefügt haben.
+Hier sieht man im Übrigen, dass wir einen `mode` zu unserem `extend` hinzugefügt haben. Dadurch wird Suche an den Header gehangen.
