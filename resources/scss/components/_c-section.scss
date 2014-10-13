@@ -6,30 +6,24 @@
 	&.markdown {
 		margin-bottom: 1em;
 	}
-	.columns-2 {
+	.is-two-columns {
 		@include column-count(2);
 		@include column-width(50%);
 	}
 
-	&.small {
+	.is-centered {
+		text-align: center;
+	}
+	.is-small {
 		width: 60%;
 		margin-left: 20%;
-	}
-	.m20 & {
-		margin: 0 20%;
-	}
-	.m15 & {
-		margin: 0 15%;
-	}
-	.m10 & {
-		margin: 0 10%;
 	}
 
 	p {
 		line-height: 140%;
 	}
 
-	&.exercise {
+	&.is-exercise {
 		width: 70%;
 		margin-left: 15%;
 		background: #000;

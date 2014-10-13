@@ -1,5 +1,3 @@
-### Data 
-
 Data, die in JSON oder YAML Dateien spezifiert sind, können für Templates verfügbar gemacht werden. Hier ein Beispiel:
 
 **Partial: button.hbs**
@@ -10,29 +8,29 @@ Data, die in JSON oder YAML Dateien spezifiert sind, können für Templates verf
 
 **Data: button.json**
 
-``` json
+```
 [
-  {
-    "text": "Success!",
-    "modifier": "btn-success"
-  },
-  {
-    "text": "Error!",
-    "modifier": "btn-error"
-  },
-  {
-    "text": "Warning!",
-    "modifier": "btn-warning"
-  }
+	{
+		"text": "Success!",
+		"modifier": "btn-success"
+	},
+	{
+		"text": "Error!",
+		"modifier": "btn-error"
+	},
+	{
+		"text": "Warning!",
+		"modifier": "btn-warning"
+	}
 ]
 ```
 
 **Page: page-buttons.hbs**
 
 ``` hbs
-{{#each button}}
-  {{> button }}
-{{/each}}
+\{{#each button}}
+  \{{> button }}
+\{{/each}}
 ```
 
 **Ergebnis:**

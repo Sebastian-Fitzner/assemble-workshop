@@ -9,9 +9,6 @@
 		"__basic-behaviour": [
 			"vendor/libs/head.min",
 			"vendor/libs/reveal"
-		],
-		"__base-modules": [
-			"init/app"
 		]
 	},
 	"name": "assemble-workshop",

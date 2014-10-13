@@ -1,36 +1,37 @@
-# Assemble Syntax
-
-## Handlebars.JS als Template-Sprache
-
 Die Syntax sieht dabei wie folgt aus:
 
 *Simple Expression*
+
 ```
-{{ title }}
+\{{ title }}
 ```
 
 *Full Expression with complete Mark Up*
+
 ```
-{{{ title }}}
+\{{{ title }}}
 ```
 
 *Standard Partials*
+
 ```
-{{> _metadata }}
+\{{> _metadata }}
 ```
 
 *Advanced Partials*
+
 ```
-{{partial "_metadata" }}
+\{{partial "_metadata" }}
 ```
 
 *Block Helper*
 ```
-{{#if }}{{/if}}
+\{{#if }}\{{/if}}
 ```
 
 *Comments*
+
 ```
-{{! comment }}
+\{{! comment }}
 ```
 

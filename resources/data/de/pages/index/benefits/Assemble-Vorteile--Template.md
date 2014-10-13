@@ -1,5 +1,4 @@
-
-### Template
+Das Ganze kann dann rein hypothetisch so aussehen (die Syntax ist abhängig von der Template-Sprache):
 
 ``` html
 

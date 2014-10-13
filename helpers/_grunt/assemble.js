@@ -4,15 +4,14 @@ module.exports = {
 		data: '<%= paths.src %>/data/**/*.{json,yml}',
 		helpers: '<%= paths.src %>/templates/helpers/**/*.js',
 		layoutdir: '<%= paths.src %>/templates/layouts/',
-		layout: false, 
+		layout: false,
 		partials: [
-		'<%= paths.src %>/templates/partials/**/*.hbs',
-		'<%= paths.src %>/templates/layouts/tpl-default.hbs'
+			'<%= paths.src %>/templates/partials/**/*.hbs',
+			'<%= paths.src %>/templates/layouts/tpl-default.hbs'
 		]
 	},
 	pages: {
-		options: {
-		},
+		options: {},
 		files: [{
 			cwd: '<%= paths.src %>/templates/pages/',
 			dest: '<%= paths.dev %>/',

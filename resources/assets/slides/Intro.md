@@ -1,3 +1,0 @@
-# Assemble Workshop
-
-## Template Engine mal genauer betrachtet ...

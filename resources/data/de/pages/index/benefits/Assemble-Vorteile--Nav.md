@@ -1,4 +1,4 @@
-### Navigation 
+Die Navigation sieht wie folgt aus:
 
 ``` html
 <div class="nav-collapse collapse bs-navbar-collapse">
@@ -19,4 +19,4 @@
 </div>
 ```
 
-Die Navigation haben wir nun in einer eigenen Datei gespeichert. Nun möchten wir diese einfach referenzieren/inkludieren. Das Ganze kann dann rein hypothetisch so aussehen (die Syntax ist abhängig von der Template-Sprache): 
+Die Navigation haben wir nun in einer eigenen Datei gespeichert. Nun möchten wir diese einfach referenzieren/inkludieren.  

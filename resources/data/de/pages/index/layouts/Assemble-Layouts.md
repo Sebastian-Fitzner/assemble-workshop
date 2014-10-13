@@ -1,7 +1,3 @@
-# Assemble Layouts
-
-## Seitentemplates in Assemble
-
 _Layouts are used for "wrapping" the content of individual pages with common elements, such as the `<head></head>` and footer sections, which usually contain necessities such as `<link>` and `<script>` tags._
 
 **An sich gibt es zwei Wege um Templates zu bauen:**
