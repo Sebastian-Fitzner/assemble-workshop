@@ -1,0 +1,22 @@
+---
+component: Carousel Wrapper
+---
+<div class="carousel" id="{{carousel-id}}" data-slideshow="true" data-slideshow-autoscroll="{{carousel-autoscroll}}">
+	<ul class="carousel__items {{carousel-class}}">
+
+		{{#limit limit-start limit-end data}}
+
+			<li class="carousel__items__item">
+				{{partial "_carousel__content" ../this }}
+			</li>
+
+		{{/limit}}
+
+	</ul>
+
+	{{#if carousel-pagination}}
+		{{partial "_carousel__pagination" }}
+	{{/if}}
+</div>
+
+

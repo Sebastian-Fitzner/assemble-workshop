@@ -153,7 +153,6 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 	opacity: 0.5;
 }
 
-
 /*
 
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
@@ -162,9 +161,10 @@ based on dark.css by Ivan Sagalaev
 */
 
 pre code {
-  display: block; padding: 0.5em;
-  background: #000;
-  color: #c0fffd;
+	display: block;
+	padding: 0.5em;
+	background: #000;
+	color: #c0fffd;
 }
 
 pre .keyword,
@@ -176,25 +176,25 @@ pre .nginx .title,
 pre .request,
 pre .status,
 pre .clojure .attribute {
-  color: #bbe30e;
+	color: #bbe30e;
 }
 
 pre .django .template_tag,
 pre .django .variable,
 pre .django .filter .argument {
-  color: #00e2f5;
+	color: #00e2f5;
 }
 
 pre .number,
 pre .date {
-  color: #8CD0D3;
+	color: #8CD0D3;
 }
 
 pre .dos .envvar,
 pre .dos .stream,
 pre .variable,
 pre .apache .sqbracket {
-  color: #EFDCBC;
+	color: #EFDCBC;
 }
 
 pre .dos .flow,
@@ -203,12 +203,12 @@ pre .python .exception,
 pre .python .built_in,
 pre .literal,
 pre .tex .special {
-  color: #EFEFAF;
+	color: #EFEFAF;
 }
 
 pre .diff .chunk,
 pre .subst {
-  color: #8F8F8F;
+	color: #8F8F8F;
 }
 
 pre .dos .keyword,
@@ -221,14 +221,14 @@ pre .apache .tag,
 pre .nginx .built_in,
 pre .tex .command,
 pre .prompt {
-    color: #efef8f;
+	color: #efef8f;
 }
 
 pre .dos .winutils,
 pre .ruby .symbol,
 pre .ruby .symbol .string,
 pre .ruby .string {
-  color: #DCA3A3;
+	color: #DCA3A3;
 }
 
 pre .diff .deletion,
@@ -246,7 +246,7 @@ pre .attr_selector,
 pre .pseudo,
 pre .apache .cbracket,
 pre .tex .formula {
-  color: #ffc80c;
+	color: #ffc80c;
 }
 
 pre .shebang,
@@ -256,7 +256,7 @@ pre .java .annotation,
 pre .template_comment,
 pre .pi,
 pre .doctype {
-  color: #7F9F7F;
+	color: #7F9F7F;
 }
 
 pre .coffeescript .javascript,
@@ -266,5 +266,5 @@ pre .xml .javascript,
 pre .xml .vbscript,
 pre .xml .css,
 pre .xml .cdata {
-  opacity: 0.5;
+	opacity: 0.5;
 }

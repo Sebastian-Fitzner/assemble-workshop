@@ -3,5 +3,13 @@ pre {
 	margin: 1em 0;
 	code {
 		overflow-x: auto;
+		max-height: 700px;
+
+		::selection {
+			color: #000;
+			background: #fff;
+			text-shadow: none;
+			opacity: 1;
+		}
 	}
 }

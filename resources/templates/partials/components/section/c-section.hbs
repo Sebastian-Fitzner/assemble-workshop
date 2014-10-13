@@ -19,7 +19,9 @@ component: section
 		{{! Use md files (md section-md) or json content (section-content) or both}}
 
 			{{{ section-content }}}
-			{{md section-md}}
+			{{#if section-md}}
+				{{md section-md}}
+			{{/if}}
 
 		{{/if}}
 	</div>

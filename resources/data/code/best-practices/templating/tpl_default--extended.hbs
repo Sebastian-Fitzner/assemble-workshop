@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+
+{{> _head }}
+
+<body class="{{ bodyclass }}">
+
+	<!-- Navbar
+		================================================== -->
+		{{#block "nav"}}
+			{{> _nav }}
+		{{/block}}
+
+	<!-- Header
+	================================================== -->
+	<header class="masthead subhead">
+		{{#block "header"}}
+			<div class="container">
+				<h1> {{ title }} </h1>
+			</div>
+		{{/block}}
+	</header>
+
+	<!-- Page content
+	================================================== -->
+	<main class="main" id="main">
+		<div class="container">
+			<h1> {{{ title }}} </h1>
+
+			<h2 class="lead"> {{{ lead }}} </h2>
+			{{#block "body"}}
+				{{> body }}
+			{{/block}}
+		</div>
+	</main>
+
+	<!-- Footer
+	================================================== -->
+	<footer class="footer">
+		{{#block "footer"}}
+			{{> footer }}
+		{{/block}}
+	</footer>
+</body>
+</html>

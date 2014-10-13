@@ -1,8 +1,6 @@
-### Grunt Einstellungen (Assemble Task) 
+Um `\{{#block}}` und `\{{#extend}}` zu aktivieren, muss man folgende Einstellungen im Assemble Task treffen:
 
-Um `{{#block}}` und `{{#extend}}` zu aktivieren, muss man folgende Einstellungen im Assemble Task treffen: 
-
-``` js
+``` json
 options: {
 	assets: '<%= paths.dev %>',
 	data: '<%= paths.src %>/data/**/*.{json,yml}',

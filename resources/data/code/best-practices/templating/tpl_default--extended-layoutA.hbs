@@ -1,0 +1,36 @@
+---
+title: Layout A
+---
+{{#extend "tpl-base"}}
+	{{#content "base-header"}}
+		<header class="masthead subhead">
+			{{#block "header"}}
+				<div class="container">
+					<h1> {{ title }} </h1>
+				</div>
+			{{/block}}
+		</header>
+	{{/content}}
+
+	{{#content "base-body"}}
+		<section id="section-layout-a" class="layout layout-a">
+
+			{{{body-text}}}
+
+			<div class="region region-a">
+				{{#block "region-a"}}{{/block}}
+			</div>
+			<div class="region region-b">
+				{{#block "region-b"}}{{/block}}
+			</div>
+			<div class="region region-c">
+				{{#block "region-c"}}{{/block}}
+			</div>
+
+		</section>
+	{{/content}}
+
+	{{#content "base-footer"}}
+		{{#block "footer"}}{{/block}}
+	{{/content}}
+{{/extend}}

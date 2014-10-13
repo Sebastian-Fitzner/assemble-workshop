@@ -6,5 +6,5 @@ Diese Variante ist sehr stark an das CMS Drupal orientiert und definiert sogenan
 
 **Layouts durch Layouts extenden**
 
-Diese Variante geht eher davon aus ein Base Layout zu definieren und dieses durch weitere spezifischere Layouts zu extenden.
+Diese Variante geht von einen Base Layout aus, das durch weitere spezifischere Layouts erweitert wird.
 

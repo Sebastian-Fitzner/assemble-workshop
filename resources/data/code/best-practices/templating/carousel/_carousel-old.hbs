@@ -1,0 +1,124 @@
+---
+component: Carousel
+---
+<div class="carousel" id="{{carousel-id}}" data-slideshow="true" data-slideshow-autoscroll="{{carousel-autoscroll}}">
+	<ul class="carousel__items {{carousel-class}}">
+
+		{{#limit limit-start limit-end data}}
+
+			<li class="carousel__items__item">
+
+				{{#is carousel-type "article"}}
+
+					<article class="article {{ article-class }}">
+
+						{{#if article-header}}
+							<header class="article__header">
+
+								{{#if article-date }}
+									<time datetime="{{article-datetime}}">{{article-date}}</time>
+								{{/if}}
+
+								{{#if article-h1 }}
+									<h1>{{ article-h1 }}</h1>
+								{{/if}}
+
+								{{#if article-h2 }}
+									<h2>{{ article-h2 }}</h2>
+								{{/if}}
+
+							</header>
+						{{/if}}
+
+						{{#if article-figure }}
+							<figure class="figure {{figure-class}}">
+
+								{{#if figure-picture}}
+									<picture class="picture {{picture-class}}" data-default-src="{{picture-url-std}}">
+										<source srcset="{{picture-url-large}}, {{picture-url-large-2x}}" media="(min-width: 768px)"/>
+										<source srcset="{{picture-url-medium}}, {{picture-url-medium-2x}}" media="(min-width: 481px)"/>
+										<source srcset="{{picture-url-small}}, {{picture-url-small-2x}}" media="(max-width: 480px)"/>
+										<img src="{{picture-url-std}}" alt="{{picture-alt}}"/>
+									</picture>
+								{{else}}{{#if figure-video}}
+									<video poster="{{video-poster}}" {{video-autoplay}} {{video-loop}} {{video-controls}} {{video-preload}} tabindex="0" class="video {{video-class}}">
+										<source src="{{video-mp4}}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+										<source src="{{video-webm}}" type='video/webm; codecs="vp8, vorbis"'/>
+										<track src="{{video-track}}" kind="{{video-track-subtitle}}" srclang="{{video-track-lang}}" label="{{video-track-label}}"/>
+									</video>
+								{{/if}}{{/if}}
+
+								{{#if figure-caption}}
+									<figcaption class="figure__caption">
+										{{ figure-caption }}
+									</figcaption>
+								{{/if}}
+
+							</figure>
+						{{/if}}
+
+						<div class="article__content">
+							{{#if article-summary}}
+								{{{truncate article-content article-summary "..." }}}
+							{{else}}
+								{{{ article-content }}}
+							{{/if}}
+						</div>
+
+						{{#if article-morelink}}
+							<a class="article__read-more" href="#">
+								{{ article-morelink }}
+							</a>
+						{{/if}}
+
+					</article>
+
+				{{else}}{{#is carousel-type "figure"}}
+
+					<figure class="figure {{figure-class}}">
+
+						{{#if figure-picture}}
+							<picture class="picture {{picture-class}}" data-default-src="{{picture-url-std}}">
+								<source srcset="{{picture-url-large}}, {{picture-url-large-2x}}" media="(min-width: 768px)"/>
+								<source srcset="{{picture-url-medium}}, {{picture-url-medium-2x}}" media="(min-width: 481px)"/>
+								<source srcset="{{picture-url-small}}, {{picture-url-small-2x}}" media="(max-width: 480px)"/>
+								<img src="{{picture-url-std}}" alt="{{picture-alt}}"/>
+							</picture>
+						{{else}}{{#if figure-video}}
+							<video poster="{{video-poster}}" {{video-autoplay}} {{video-loop}} {{video-controls}} {{video-preload}} tabindex="0" class="video {{video-class}}">
+								<source src="{{video-mp4}}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+								<source src="{{video-webm}}" type='video/webm; codecs="vp8, vorbis"'/>
+								<track src="{{video-track}}" kind="{{video-track-subtitle}}" srclang="{{video-track-lang}}" label="{{video-track-label}}"/>
+							</video>
+						{{/if}}{{/if}}
+
+						{{#if figure-caption}}
+							<figcaption class="figure__caption">
+								{{ figure-caption }}
+							</figcaption>
+						{{/if}}
+
+					</figure>
+
+				{{/is}}{{/is}}
+
+			</li>
+
+		{{/limit}}
+
+	</ul>
+
+	{{#if carousel-pagination}}
+		<div class="carousel__pagination" data-slideshow-pager="true" data-slideshow="#{{carousel-id}}">
+			<div class="dots-wrapper">
+				<ul class="dots">
+					<li class="dot"></li>
+				</ul>
+			</div>
+			<button class="prev"><span>Previous</span></button>
+			<button class="next"><span>Next</span></button>
+		</div>
+	{{/if}}
+</div>
+
+

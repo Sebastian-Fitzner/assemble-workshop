@@ -1,0 +1,18 @@
+---
+component: Carousel Content
+carousel-type: article
+---
+
+{{#is carousel-type "simple"}}
+
+	{{{ carousel-content-simple }}}
+
+{{else}}{{#is carousel-type "article"}}
+
+	{{partial "_article" }}
+
+{{else}}{{#is carousel-type "figure"}}
+
+	{{partial "_figure" }}
+
+{{/is}}{{/is}}{{/is}}
