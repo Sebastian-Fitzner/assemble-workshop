@@ -23,7 +23,6 @@ sortOrder: 01
 				{{/parseJSON}}
 
 				<section>
-
 					{{#parseJSON '{
 						"section-h1": "Assemble",
 						"section-h2": "Template Engine basierend auf JavaScript",
@@ -63,7 +62,6 @@ sortOrder: 01
 					}'}}
 						{{partial "c-section" }}
 					{{/parseJSON}}
-
 				</section>
 
 				<section>
@@ -90,10 +88,9 @@ sortOrder: 01
 					}'}}
 						{{partial "c-section" }}
 					{{/parseJSON}}
-
 				</section>
-				<section>
 
+				<section>
 					{{#parseJSON '{
 						"section-h1": "Assemble Überblick",
 						"section-h2": "Assemble hat 5 Template-Konzepte eingebaut.",
@@ -140,9 +137,7 @@ sortOrder: 01
 					}'}}
 						{{partial "c-section" }}
 					{{/parseJSON}}
-
 				</section>
-
 
 				{{#parseJSON '{
 					"section-h1": "Aufgabe",
@@ -173,12 +168,51 @@ sortOrder: 01
 						{{partial "c-section" }}
 					{{/parseJSON}}
 
-
-					<section data-markdown="slides/layouts/Assemble-Layouts--Standards.md"></section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Layouts",
+						"section-h2": "Einführung in Standard Layouts",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
 				</section>
-				<section data-markdown="slides/layouts/Assemble-Layouts--Standards-A01.md" class="is-exercise"></section>
+
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Standard Layouts",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
 				<section>
-					<section data-markdown="slides/layouts/Assemble-Layouts--Extended.md" class="is-small"></section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Extended Layouts",
+						"section-h2": "Wie wir Layouts \"extenden\"",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Varianten von Extend",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended-Variations.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Layouts über Pages extenden",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended-Variations-Page.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+
 					<section data-markdown="slides/layouts/Assemble-Layouts--Extended-Grunt.md"></section>
 					<section data-markdown="slides/layouts/Assemble-Layouts--Extended-Usage.md"></section>
 				</section>

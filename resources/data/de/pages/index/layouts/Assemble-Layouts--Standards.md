@@ -1,5 +1,3 @@
-### Assemble Standard Layouts
-
 Das "einfachste" Standard-Template sieht so aus:
 
 ```
@@ -9,31 +7,27 @@ Das "einfachste" Standard-Template sieht so aus:
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="en" class="no-js"> <!--<![endif]-->
-
 <head>
 	<meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"/>
     <title>{{title}} | {{site.title}}</title>
-	<link rel="shortcut icon" href="{{assets}}/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{assets}}/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="{{assets}}/css/styles.css"/>
 </head>
-
 <body class="">
-
-	{{> body }} <!-- reservierter partial -->
-
+	\{{> header }}
+	\{{> body }} <!-- reservierter partial -->
+	\{{> footer }}
 </body>
 </html>
 ```
 
 Standard-Partials können einfach erstellt und integriert werden. Die Syntax für einen Partial ist simpel: 
 
-* `{{> my-partial-name }}`
+* `\{{> my-partial-name }}` wie beispielsweise `\{{> footer }}`
 
 Reservierte Partials sind vorgeschrieben. Es gibt eigentlich nur einen reservierten Partial:
 
-* `{{> body}}`
+* `\{{> body}}`
  
 `body` wird ersetzt durch euren Seiteninhalt. Dieser wird im Ordner `pages` erstellt.  
