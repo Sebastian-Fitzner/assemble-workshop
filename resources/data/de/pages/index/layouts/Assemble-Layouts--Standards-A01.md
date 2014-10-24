@@ -7,4 +7,4 @@ Außerdem soll der Titel der Seite ebenfalls als `<h1>` im Layout ausgegeben wer
 Erstelle auf den Seiten individuelle Seitenklassen, die im Template am `<body>` angehangen werden.
 
 Nutze dazu folgendes Setup-Material:
-* http://aw.prototype-generator.com/downloads/layouts.zip
+* Aufgabe "Standard Layouts" 

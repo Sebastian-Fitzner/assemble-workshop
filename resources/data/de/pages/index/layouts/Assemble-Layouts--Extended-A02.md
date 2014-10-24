@@ -8,4 +8,4 @@ Erstelle eine neue Seite `page-extend.hbs` und benutze `\{{#extend}}` um die Bl√
 * Stelle an den Footer den Partial `b-footer-prepend.hbs` voran
 
 Nutze dazu folgendes Setup-Material:
-* http://aw.prototype-generator.com/downloads/layouts--extended-page.zip
+* Aufgabe "Layouts Extended - Page Extend"
