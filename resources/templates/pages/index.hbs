@@ -4,7 +4,6 @@ menuLink: Home
 sortOrder: 01
 ---
 
-
 {{#extend "tpl-default"}}
 	{{#content "body"}}
 
@@ -384,6 +383,16 @@ sortOrder: 01
 						{{partial "c-section" }}
 					{{/parseJSON}}
 
+				</section>
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Partials",
+						"section-h2": "Erweiterte Partials",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
 
 				</section>
 
