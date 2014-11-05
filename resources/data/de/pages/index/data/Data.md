@@ -1,8 +1,5 @@
 Mit Assemble kann man Daten und Inhalte auslagern und entsprechend referenzieren.
 
-Die Referenzierung erfolgt durch Block-Helper, die den Dateinamen oder `\{{#with my-data-file}}\{{/with}}` nutzen.
+Datendateien werden im folgenden Ordner abgespeichert: 
 
-Folgende Datenformate können dabei in Assemble benutzt werden:
-* JSON-Dateien, wie my-data.json (gesetzt)
-* YAML-Dateien, wie my-data.yml (bitte nicht benutzen)
-* YAML Front-Matter, direkt eingebunden auf den Seiten
+* `resources/data`

@@ -2,7 +2,7 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 
 *JSON-Datei: homepage.json*
 
-``` json
+```
 {
 	"article-h1": "My Custom Headline",
 	"article-content": "<p>My Custom Content</p>"
@@ -26,7 +26,7 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 ---
 title: testseite
 ---
-\{{#homepage.data}}
+\{{#homepage}}
 	\{{partial "_simple-article" }}
-\{{/homepage.data}}
+\{{/homepage}}
 ```

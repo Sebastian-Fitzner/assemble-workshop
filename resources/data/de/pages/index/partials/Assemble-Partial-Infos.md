@@ -1,6 +1,5 @@
 Partials werden in den folgenden Ordnern abgespeichert: 
-* resources/templates/partials (PG)
-* source/assemble/partials (Nikita)
+* `resources/templates/partials`
 
 Partials sind Code Snippets, die man auslagern möchte und wieder verwenden kann. 
 

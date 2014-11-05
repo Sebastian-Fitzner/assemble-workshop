@@ -167,10 +167,59 @@ sortOrder: 02
 						{{partial "c-section" }}
 					{{/parseJSON}}
 
+
 					{{#parseJSON '{
-						"section-h1": "Assemble Layouts",
-						"section-h2": "Einführung in Standard Layouts",
+						"section-h2": "Layouts im Allgemeinen",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards_General.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Ein Layout im Detail",
 						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+				</section>
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Pages",
+						"section-h2": "Pages im Überlick"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Allgemeines zu Pages",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/pages/Assemble-Pages.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Pages und Variablen",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-YML.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Pages und Layouts",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Layouts.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Zusammenfassung",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Summary.md"
 					}'}}
 						{{partial "c-section" }}
 					{{/parseJSON}}
@@ -178,7 +227,7 @@ sortOrder: 02
 
 				{{#parseJSON '{
 					"section-h1": "Aufgabe",
-					"section-h2": "Standard Layouts",
+					"section-h2": "Standard Layouts und Pages",
 					"section-class": "is-exercise",
 					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md"
 				}'}}
@@ -253,12 +302,37 @@ sortOrder: 02
 					{{/parseJSON}}
 				</section>
 
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Standard Partials",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Standard-A01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
 				<section>
 					{{#parseJSON '{
 						"section-h1": "Assemble Data",
 						"section-h2": "Data Handling",
 						"section-content-classes": "is-small",
 						"section-md": "resources/data/de/pages/index/data/Data.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Data benutzen",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/data/Data-anwenden.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Datenformate",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/data/Data-Formate.md"
 					}'}}
 						{{partial "c-section" }}
 					{{/parseJSON}}
@@ -272,6 +346,62 @@ sortOrder: 02
 					{{/parseJSON}}
 
 				</section>
+
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Data handline",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/data/Data-A01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Markdown",
+						"section-h2": "Wie man einfach Inhalte pflegt",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/markdown/Assemble-md.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Assemble Markdown Helper",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "{{md}} Helper",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-md.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "{{#markdown}} Helper",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-markdown.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+				</section>
+
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Markdown nutzen",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+
 			</div>
 		</div>
 	{{/content}}
