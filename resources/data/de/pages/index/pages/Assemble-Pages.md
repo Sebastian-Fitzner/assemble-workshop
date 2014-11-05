@@ -1,15 +1,10 @@
-Pages beinhalten den Inhalt einer Seite und können wie folgt aufgesetzt werden:
+Pages beinhalten den Inhalt einer Seite und können wie folgt aufgesetzt sein:
 
 ``` hbs
----
-title: Prototype Deluxe
----
-
 <div class="slides">
-	<h2> {{ title }} </h2>
+	<h2> \{{ title }} </h2>
 	<div class="loader"></div>
 </div>
-
 ```
 
 Folgendes ist hier wichtig:
@@ -24,7 +19,7 @@ layout: tpl_seitentyp.hbs
 ---
 
 <div class="slides">
-	<h2> {{ title }} </h2>
+	<h2> \{{ title }} </h2>
 	<div class="loader"></div>
 </div>
 

@@ -187,6 +187,23 @@ sortOrder: 02
 
 				<section>
 					{{#parseJSON '{
+						"section-h1": "Assemble Pages",
+						"section-h2": "Pages im Überlick"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Pages im Überlick",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/pages/Assemble-Pages.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				<section>
+					{{#parseJSON '{
 						"section-h1": "Assemble Partials",
 						"section-h2": "Partials im Überlick"
 					}'}}
