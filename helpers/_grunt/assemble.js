@@ -16,7 +16,7 @@ module.exports = {
 			cwd: '<%= paths.src %>/templates/pages/',
 			dest: '<%= paths.dev %>/',
 			expand: true,
-			flatten: true,
+			flatten: false,
 			src: ['**/*.hbs']
 		}]
 	}

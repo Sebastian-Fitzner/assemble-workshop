@@ -1,0 +1,278 @@
+---
+title: Build Better Prototypes with Assemble - Basics
+menuLink: Basic Course
+sortOrder: 02
+---
+
+{{#extend "tpl-default"}}
+	{{#content "body"}}
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				{{#parseJSON '{
+					"section-h1": "Assemble Workshop",
+					"section-h2": "Template Engine unter der Lupe.",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/data/de/pages/index/general/Intro.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble",
+						"section-h2": "Template Engine basierend auf JavaScript",
+						"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Was ist eine Template Engine?",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Template-Engine.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Vorteile einer Template Engine wie Assemble",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Vorteile.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Nachteile einer Template Engine wie Assemble",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Nachteile.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Was ist nun Assemble?",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Assemble.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Vorteile",
+						"section-h2": "Ein kleines Beispiel",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Intro.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Navigation",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Nav.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Template",
+						"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Template.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Überblick",
+						"section-h2": "Assemble hat 5 Template-Konzepte eingebaut.",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Layouts",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Layouts.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Pages",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Partials",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Partials.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Content",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Content.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Data",
+						"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Data.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Assemble Bereiche",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/introduction/Intro-Aufgabe01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+				{{#parseJSON '{
+					"section-h1": "Assemble Syntax",
+					"section-h2": "Handlebars.JS als Template-Sprache",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/general/Assemble-Syntax.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Layouts",
+						"section-h2": "Seitentemplates in Assemble",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h1": "Assemble Layouts",
+						"section-h2": "Einführung in Standard Layouts",
+						"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				{{#parseJSON '{
+					"section-h1": "Aufgabe",
+					"section-h2": "Standard Layouts",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md"
+				}'}}
+					{{partial "c-section" }}
+				{{/parseJSON}}
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Partials",
+						"section-h2": "Partials im Überlick"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Was sind Partials?",
+						"section-content-classes": "is-two-columns",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Partials.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Wichtige Infos zu Partials",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-Infos.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Partials anwenden",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-anwenden.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Partials",
+						"section-h2": "Einfache Partials",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Partials in Pages",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Page.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Partials Template",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Partial.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "Partials Output",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Output.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+				</section>
+
+				<section>
+					{{#parseJSON '{
+						"section-h1": "Assemble Data",
+						"section-h2": "Data Handling",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/data/Data.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+					{{#parseJSON '{
+						"section-h2": "JSON Handling",
+						"section-content-classes": "is-small",
+						"section-md": "resources/data/de/pages/index/data/JSON-02.md"
+					}'}}
+						{{partial "c-section" }}
+					{{/parseJSON}}
+
+				</section>
+			</div>
+		</div>
+	{{/content}}
+{{/extend}}

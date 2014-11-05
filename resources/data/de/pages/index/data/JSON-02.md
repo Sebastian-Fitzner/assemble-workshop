@@ -4,12 +4,8 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 
 ``` json
 {
-	"data": [
-		{
-			"article-h1": "Build your website with PG",
-			"article-content": "<p>testcontent</p>"
-		}
-	]
+	"article-h1": "My Custom Headline",
+	"article-content": "<p>My Custom Content</p>"
 }
 ```
 
@@ -17,9 +13,9 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 
 ``` hbs
 <div class="teaser">
-	<h1>{{article-h1}}</h1>
+	<h1>\{{article-h1}}</h1>
 	<div class="content">
-		{{{article-content}}}
+		\{{{article-content}}}
 	</div>
 </div>
 ```
@@ -30,7 +26,7 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 ---
 title: testseite
 ---
-{{#homepage.data}}
-	{{partial "_simple-article" }}
-{{/homepage.data}}
+\{{#homepage.data}}
+	\{{partial "_simple-article" }}
+\{{/homepage.data}}
 ```
