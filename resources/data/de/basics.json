@@ -261,12 +261,15 @@
 			"data": [
 				{
 					"section-h1": "Assemble Markdown",
-					"section-h2": "Wie man einfach Inhalte pflegt",
-					"section-content-classes": "is-two-columns",
+					"section-h2": "Wie man einfach Inhalte pflegt"
+				},
+				{
+					"section-h2": "Was ist Markdown?",
+					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/markdown/Assemble-md.md"
 				},
 				{
-					"section-h2": "Assemble Markdown Helper",
+					"section-h2": "Allgemeines zu Markdown",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper.md"
 				},

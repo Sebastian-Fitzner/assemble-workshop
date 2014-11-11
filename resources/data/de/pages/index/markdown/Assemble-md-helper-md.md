@@ -1,5 +1,8 @@
 Der `\{{md}}` Helper referenziert immer zu einer Datei und gibt den Inhalt der Datei aus. 
 
+Dabei muss immer der komplette Projekt-Pfad zur Datei angegegeben werden, z.B.:
+* `resources/data/pages/homepage.md`
+
 _Beispiel:_
 ``` hbs
 ---

@@ -1,4 +1,3 @@
-Markdown ist sehr einfach zu schreiben und gibt valides HTML aus. In Assemble können Markdown-Dateien ganz einfach eingesetzt werden. 
+Markdown ist eine einfache Syntax, um HTML-Code aus Textdokumenten zu generieren. Es ist sehr einfach zu schreiben und gibt valides HTML aus.
 
-Dabei muss immer der komplette Pfad zur Datei angegegeben werden, z.B.:
-* `resources/data/pages/homepage.md`
+Auch in Assemble haben wir die Möglichkeit, Markdown zu nutzen.
