@@ -1,0 +1,292 @@
+{
+	"data": [
+		{
+			"section-h1": "Assemble Workshop",
+			"section-h2": "Template Engine unter der Lupe.",
+			"section-content-classes": "is-centered",
+			"section-md": "resources/data/de/pages/index/general/Intro.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble",
+					"section-h2": "Template Engine basierend auf JavaScript",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro.md"
+				},
+				{
+					"section-h2": "Was ist eine Template Engine?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Template-Engine.md"
+				},
+				{
+					"section-h2": "Vorteile einer Template Engine wie Assemble",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Vorteile.md"
+				},
+				{
+					"section-h2": "Nachteile einer Template Engine wie Assemble",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Nachteile.md"
+				},
+				{
+					"section-h2": "Was ist nun Assemble?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Assemble.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Vorteile",
+					"section-h2": "Ein kleines Beispiel",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Intro.md"
+				},
+				{
+					"section-h2": "Navigation",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Nav.md"
+				},
+				{
+					"section-h2": "Template",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Template.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Überblick",
+					"section-h2": "Assemble hat 5 Template-Konzepte eingebaut.",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview.md"
+				},
+				{
+					"section-h2": "Layouts",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Layouts.md"
+				},
+				{
+					"section-h2": "Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
+				},
+				{
+					"section-h2": "Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
+				},
+				{
+					"section-h2": "Partials",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Partials.md"
+				},
+				{
+					"section-h2": "Content",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Content.md"
+				},
+				{
+					"section-h2": "Data",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Data.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Assemble Bereiche",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/introduction/Intro-Aufgabe01.md"
+		},
+		{
+			"section-h1": "Assemble Syntax",
+			"section-h2": "Handlebars.JS als Template-Sprache",
+			"section-content-classes": "is-small",
+			"section-md": "resources/data/de/pages/index/general/Assemble-Syntax.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Layouts",
+					"section-h2": "Seitentemplates in Assemble"
+				},
+				{
+					"section-h2": "Was sind Layouts?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts.md"
+				},
+				{
+					"section-h2": "Layouts im Allgemeinen",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards_General.md"
+				},
+				{
+					"section-h2": "Ein Layout im Detail",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Pages",
+					"section-h2": "Pages im Überlick"
+				},
+				{
+					"section-h2": "Was sind Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Intro.md"
+				},
+				{
+					"section-h2": "Allgemeines zu Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages.md"
+				},
+				{
+					"section-h2": "Pages und Variablen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-YML.md"
+				},
+				{
+					"section-h2": "Pages und Layouts",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Layouts.md"
+				},
+				{
+					"section-h2": "Zusammenfassung",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Summary.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Standard Layouts und Pages",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Partials",
+					"section-h2": "Partials im Überlick"
+				},
+				{
+					"section-h2": "Was sind Partials?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partials.md"
+				},
+				{
+					"section-h2": "Wichtige Infos zu Partials",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-Infos.md"
+				},
+				{
+					"section-h2": "Partials anwenden",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-anwenden.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Partials",
+					"section-h2": "Der einfache Partial"
+				},
+				{
+					"section-h2": "Was kann der einfach Partial?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials.md"
+				},
+				{
+					"section-h2": "Wo und wie kann ich den einfachen Partial nutzen?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Usage.md"
+				},
+				{
+					"section-h2": "Partials in Pages als Beispiel",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Page.md"
+				},
+				{
+					"section-h2": "Partials Template",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Partial.md"
+				},
+				{
+					"section-h2": "Partials Output",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Output.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Standard Partials",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Standard-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Data",
+					"section-h2": "Data Handling",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data.md"
+				},
+				{
+					"section-h2": "Data benutzen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data-anwenden.md"
+				},
+				{
+					"section-h2": "Datenformate",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data-Formate.md"
+				},
+				{
+					"section-h2": "JSON Handling",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/JSON-02.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Data handline",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/data/Data-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Markdown",
+					"section-h2": "Wie man einfach Inhalte pflegt",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md.md"
+				},
+				{
+					"section-h2": "Assemble Markdown Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper.md"
+				},
+				{
+					"section-h2": "{{md}} Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-md.md"
+				},
+				{
+					"section-h2": "{{#markdown}} Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-markdown.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Markdown nutzen",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md"
+		}
+	]
+}

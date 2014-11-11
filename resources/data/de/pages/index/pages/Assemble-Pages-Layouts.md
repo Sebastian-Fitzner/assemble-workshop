@@ -13,4 +13,4 @@ layout: tpl-seitentyp.hbs
 </div>
 ```
 
-In diesem Beispiel wird die Page nun mit dem Layout `tpl-seitentyp.hbs` ausgegeben. Wichtig dabei ist, dass das Layout mit der Datei-Erweiterung `.hbs` oben definiert wird.
+In diesem Beispiel wird die Page nun mit dem Layout `tpl-seitentyp.hbs` ausgegeben. Wichtig dabei ist, dass das Layout mit der Datei-Erweiterung `.hbs` definiert wird.

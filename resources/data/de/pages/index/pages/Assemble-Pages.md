@@ -1,4 +1,4 @@
-Pages beinhalten den Inhalt einer Seite. Sie werden im folgenden Ordner abgespeichert: 
+Pages werden im folgenden Ordner abgespeichert:
 
 * `resources/templates/pages`
 
