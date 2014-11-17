@@ -62,3 +62,28 @@ Reveal.initialize({
 		}
 	}]
 });
+
+(function() {
+	var el = document.getElementById('toggle');
+
+	el.addEventListener("click", function(e) {
+		var wrapper = document.getElementById('site-nav');
+
+		e.preventDefault();
+
+		if (wrapper.classList) {
+			wrapper.classList.toggle('js-show-nav');
+		} else {
+			var classes = wrapper.className.split(' ');
+			var existingIndex = classes.indexOf('js-show-nav');
+
+			if (existingIndex >= 0)
+				classes.splice(existingIndex, 1);
+			else
+				classes.push(className);
+
+			wrapper.className = classes.join(' ');
+		}
+
+	}, false);
+})();

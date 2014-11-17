@@ -1,7 +1,7 @@
 {
   "name": "assemble-workshop-nummero-uno",
   "description": "Prototype",
-  "version": "0.1.0-2",
+  "version": "1.0.0-0",
   "author": {
     "name": "Sebastian Fitzner",
     "email": "",
@@ -35,8 +35,7 @@
     "grunt-htmlhint": "~0.4.0",
     "grunt-jsbeautifier": "~0.2.6",
     "grunt-newer": "~0.5.4",
-    "grunt-packager": "~0.1.0",
-    "grunt-sass": "^0.11.0",
+    "grunt-sass": "^0.16.0",
     "grunt-sync": "~0.0.5",
     "grunt-text-replace": "~0.3.11",
     "grunt-version": "^0.3.0",

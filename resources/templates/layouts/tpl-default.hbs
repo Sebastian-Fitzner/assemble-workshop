@@ -23,7 +23,13 @@
 </head>
 
 <body class="">
-	 
+
+	{{> b-nav-toggle }}
+
+	<div id="site-nav" class="hide-nav">
+		{{> b-sitemap }}
+	</div>
+
 	{{#block "body"}}
 		{{> body }}
 	{{/block}}
