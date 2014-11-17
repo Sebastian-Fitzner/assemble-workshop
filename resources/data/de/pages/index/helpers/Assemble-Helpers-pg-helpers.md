@@ -1,0 +1,1 @@
+http://www.prototype-generator.com/templating-in-pg/template-helpers.html

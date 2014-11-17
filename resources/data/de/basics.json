@@ -72,11 +72,6 @@
 					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
 				},
 				{
-					"section-h2": "Pages",
-					"section-content-classes": "is-small",
-					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
-				},
-				{
 					"section-h2": "Partials",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Partials.md"
@@ -230,7 +225,10 @@
 			"data": [
 				{
 					"section-h1": "Assemble Data",
-					"section-h2": "Data Handling",
+					"section-h2": "Data Handling"
+				},
+				{
+					"section-h2": "Was heißt Data Handling in Assemble?",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/data/Data.md"
 				},
@@ -287,9 +285,93 @@
 		},
 		{
 			"section-h1": "Aufgabe",
-			"section-h2": "Markdown nutzen",
+			"section-h2": "Nutze Markdown",
 			"section-class": "is-exercise",
 			"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Helpers",
+					"section-h2": "Eingebaute Helpers"
+				},
+				{
+					"section-h2": "Was sind Helpers?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers.md"
+				},
+				{
+					"section-h2": "Helper-Typen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-Types.md"
+				},
+				{
+					"section-h2": "{{#if}} | {{#is}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-if.md"
+				},
+				{
+					"section-h2": "{{#each}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-each.md"
+				},
+				{
+					"section-h2": "{{#parseJSON}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-pj.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Allgemeine Helper",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Helpers",
+					"section-h2": "Eigene Helpers"
+				},
+				{
+					"section-h2": "Was sind eigene Helpers?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers.md"
+				},
+				{
+					"section-h2": "{{#times}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-times.md"
+				},
+				{
+					"section-h2": "{{#limit}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-limit.md"
+				},
+				{
+					"section-h2": "... und einige mehr",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-pg-helpers.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Eigene Helper",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers-A01.md"
+		},
+		{
+			"section-h1": "Frage-Runde",
+			"section-h2": "Irgendetwas unklar?",
+			"section-class": "is-exercise"
+		},
+		{
+			"section-h1": "Ende ... ",
+			"section-h2": "... im Gelände.",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/general/author-infos.md"
 		}
 	]
 }

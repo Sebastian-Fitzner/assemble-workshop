@@ -1,39 +1,12 @@
-Wie schon anfänglich erwähnt, bringen Handlebars.js und Assemble eigene Helper-Bibliotheken mit sich. Den `each`-Helper haben wir mittlerweile schon kennengelernt.
+Wie schon anfänglich erwähnt, bringen Handlebars.js und Assemble eigene Helper-Bibliotheken mit sich. Deshalb kann man bestimmte Funktionalitäten schon nutzen, z.B.:
 
-Um beispielsweise bestimmte Elemente ein- bzw. auszublenden, kann man `if`- oder `is`-statements defineren.
+* Iteration durch Daten
+* Ein- und Ausblenden von Elementen
+* Einbetten von Elementen
+* und vieles vieles mehr
 
-*if* - Dieser Block-Helper prüft nur, ob ein Element definiert ist.
-``` html
-{{#if title}}
-	<h1>{{title}}</h1>
-{{/if}}
-```
+Der Dokumentations-Bereich von Assemble ist hier zu finden: 
+http://assemble.io/helpers/
 
-*is* - Dieser Block-Helper prüft, ob ein Element einen bestimmten Wert hat.
-``` html
-{{#is title "Home"}}
-	<h1>{{title}}</h1>
-{{/is}}
-```
 
-Leider gibt es keine Möglichkeiten `else is` zu benutzen.
 
-*parseJSON* - Dieser Helper ist sehr mächtig, da er uns die Möglichkeit gibt, variable Daten direkt dem Partial zu übergeben.
-
-``` html
-{{#parseJSON
-'{
-	"carousel-id": "gallery-02",
-	"carousel-autoscroll": "true",
-	"carousel-pagination": true,
-	"carousel-type": "figure",
-	"carousel-class": "custom-figure-class",
-	"limit-start": "0",
-	"limit-end": "5"
-}'
-}}
-
-	{{partial "_carousel" ../this}}
-
-{{/parseJSON}}
-```
