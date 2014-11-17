@@ -1,4 +1,4 @@
-Teile diese [Datei](http://aw.prototype-generator.com/fe/intro.html) in folgende Bereiche:
+Teile die angegebene Datei in Lesson 01 in folgende Bereiche:
  
 * Layout
 * Partials

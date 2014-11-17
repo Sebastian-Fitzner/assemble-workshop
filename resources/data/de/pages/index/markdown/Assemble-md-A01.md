@@ -1,4 +1,4 @@
-Erstelle eine Markdown-Datei, die folgendes in der Reihenfolge beinhaltet: 
+Erstelle eine Markdown-Datei, die folgende Reihenfolge beinhaltet:
 
 * H1, Paragraph, H2, List 
 

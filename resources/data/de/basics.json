@@ -91,7 +91,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Assemble Bereiche",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/introduction/Intro-Aufgabe01.md"
+			"section-md": "resources/data/de/pages/index/introduction/Intro-Aufgabe01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-01__Assemble-Areas"
 		},
 		{
 			"section-h1": "Assemble Syntax",
@@ -157,7 +158,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Standard Layouts und Pages",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md"
+			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-02__Layouts-and-Pages"
 		},
 		{
 			"data": [
@@ -219,7 +221,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Standard Partials",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Standard-A01.md"
+			"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Standard-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-03__Standard-Partials"
 		},
 		{
 			"data": [
@@ -253,7 +256,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Data handline",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/data/Data-A01.md"
+			"section-md": "resources/data/de/pages/index/data/Data-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-04__Data-Handling"
 		},
 		{
 			"data": [
@@ -287,7 +291,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Nutze Markdown",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md"
+			"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-05__Use-Markdown"
 		},
 		{
 			"data": [
@@ -326,7 +331,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Allgemeine Helper",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-A01.md"
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-06__General-Helpers"
 		},
 		{
 			"data": [
@@ -360,7 +366,8 @@
 			"section-h1": "Aufgabe",
 			"section-h2": "Eigene Helper",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers-A01.md"
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-07__Custom-Helpers"
 		},
 		{
 			"section-h1": "Frage-Runde",

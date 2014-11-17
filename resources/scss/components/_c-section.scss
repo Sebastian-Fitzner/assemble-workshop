@@ -84,4 +84,12 @@
 			font-family: Courier, monospace;
 		}
 	}
+
+	.section__lesson {
+		position: absolute;
+		bottom: -50px;
+		right: 0;
+		font-size: 20px;
+		color: #000;
+	}
 }
