@@ -1,0 +1,385 @@
+{
+	"data": [
+		{
+			"section-h1": "Assemble Workshop",
+			"section-h2": "Template Engine unter der Lupe.",
+			"section-content-classes": "is-centered",
+			"section-md": "resources/data/de/pages/index/general/Intro.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Extended Layouts",
+					"section-h2": "Überblick",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended.md"
+				},
+				{
+					"section-h2": "Varianten von Extend",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended-Variations.md"
+				},
+				{
+					"section-h2": "Grunt Einstellungen (Assemble Task)",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended-Grunt.md"
+				},
+				{
+					"section-h2": "Nachteile einer Template Engine wie Assemble",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Nachteile.md"
+				},
+				{
+					"section-h2": "Was ist nun Assemble?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/introduction/Assemble-Intro--Assemble.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Vorteile",
+					"section-h2": "Ein kleines Beispiel",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Intro.md"
+				},
+				{
+					"section-h2": "Navigation",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Nav.md"
+				},
+				{
+					"section-h2": "Template",
+					"section-md": "resources/data/de/pages/index/benefits/Assemble-Vorteile--Template.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Überblick",
+					"section-h2": "Assemble hat 5 Template-Konzepte eingebaut.",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview.md"
+				},
+				{
+					"section-h2": "Layouts",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Layouts.md"
+				},
+				{
+					"section-h2": "Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Pages.md"
+				},
+				{
+					"section-h2": "Partials",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Partials.md"
+				},
+				{
+					"section-h2": "Content",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Content.md"
+				},
+				{
+					"section-h2": "Data",
+					"section-md": "resources/data/de/pages/index/overview/Assemble-Overview--Data.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Assemble Bereiche",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/introduction/Intro-Aufgabe01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-01__Assemble-Areas"
+		},
+		{
+			"section-h1": "Assemble Syntax",
+			"section-h2": "Handlebars.JS als Template-Sprache",
+			"section-content-classes": "is-small",
+			"section-md": "resources/data/de/pages/index/general/Assemble-Syntax.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Layouts",
+					"section-h2": "Seitentemplates in Assemble"
+				},
+				{
+					"section-h2": "Was sind Layouts?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts.md"
+				},
+				{
+					"section-h2": "Layouts im Allgemeinen",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards_General.md"
+				},
+				{
+					"section-h2": "Ein Layout im Detail",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Pages",
+					"section-h2": "Pages im Überlick"
+				},
+				{
+					"section-h2": "Was sind Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Intro.md"
+				},
+				{
+					"section-h2": "Allgemeines zu Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages.md"
+				},
+				{
+					"section-h2": "Pages und Variablen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-YML.md"
+				},
+				{
+					"section-h2": "Pages und Layouts",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Layouts.md"
+				},
+				{
+					"section-h2": "Zusammenfassung",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/pages/Assemble-Pages-Summary.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Standard Layouts und Pages",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Standards-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-02__Layouts-and-Pages"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Partials",
+					"section-h2": "Partials im Überlick"
+				},
+				{
+					"section-h2": "Was sind Partials?",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partials.md"
+				},
+				{
+					"section-h2": "Wichtige Infos zu Partials",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-Infos.md"
+				},
+				{
+					"section-h2": "Partials anwenden",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partial-anwenden.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Partials",
+					"section-h2": "Der einfache Partial"
+				},
+				{
+					"section-h2": "Was kann der einfach Partial?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials.md"
+				},
+				{
+					"section-h2": "Wo und wie kann ich den einfachen Partial nutzen?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Usage.md"
+				},
+				{
+					"section-h2": "Partials in Pages als Beispiel",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Page.md"
+				},
+				{
+					"section-h2": "Partials Template",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Partial.md"
+				},
+				{
+					"section-h2": "Partials Output",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Simple-Partials__Output.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Standard Partials",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Standard-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-03__Standard-Partials"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Data",
+					"section-h2": "Data Handling"
+				},
+				{
+					"section-h2": "Was heißt Data Handling in Assemble?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data.md"
+				},
+				{
+					"section-h2": "Data benutzen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data-anwenden.md"
+				},
+				{
+					"section-h2": "Datenformate",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/Data-Formate.md"
+				},
+				{
+					"section-h2": "JSON Handling",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/data/JSON-02.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Data handline",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/data/Data-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-04__Data-Handling"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Markdown",
+					"section-h2": "Wie man einfach Inhalte pflegt"
+				},
+				{
+					"section-h2": "Was ist Markdown?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md.md"
+				},
+				{
+					"section-h2": "Allgemeines zu Markdown",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper.md"
+				},
+				{
+					"section-h2": "{{md}} Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-md.md"
+				},
+				{
+					"section-h2": "{{#markdown}} Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/markdown/Assemble-md-helper-markdown.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Nutze Markdown",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/markdown/Assemble-md-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-05__Use-Markdown"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Helpers",
+					"section-h2": "Eingebaute Helpers"
+				},
+				{
+					"section-h2": "Was sind Helpers?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers.md"
+				},
+				{
+					"section-h2": "Helper-Typen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-Types.md"
+				},
+				{
+					"section-h2": "{{#if}} | {{#is}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-if.md"
+				},
+				{
+					"section-h2": "{{#each}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-each.md"
+				},
+				{
+					"section-h2": "{{#parseJSON}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-pj.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Allgemeine Helper",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-06__General-Helpers"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Helpers",
+					"section-h2": "Eigene Helpers"
+				},
+				{
+					"section-h2": "Was sind eigene Helpers?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers.md"
+				},
+				{
+					"section-h2": "{{#times}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-times.md"
+				},
+				{
+					"section-h2": "{{#limit}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-limit.md"
+				},
+				{
+					"section-h2": "... und einige mehr",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/helpers/Assemble-Helpers-pg-helpers.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Eigene Helper",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/helpers/Assemble-Custom-Helpers-A01.md",
+			"section-lesson": "Assemble-Basics/_LESSONS/Lesson-07__Custom-Helpers"
+		},
+		{
+			"section-h1": "Frage-Runde",
+			"section-h2": "Irgendetwas unklar?",
+			"section-class": "is-exercise"
+		},
+		{
+			"section-h1": "Ende ... ",
+			"section-h2": "... im Gelände.",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/general/author-infos.md"
+		}
+	]
+}
