@@ -2,7 +2,7 @@
 
 Erstelle eine neue Page `page-times.hbs`.
 
-Füge eine ungeordnete Liste mit einem Listenelement ein und gebe die Listen-Elemente 10 mal mit dem `\{{#times}}`-helper aus.
+Füge eine ungeordnete Liste mit einem Listenelement ein und wiederhole das Element 10 mal mit dem `\{{#times}}`-helper.
 
 **`\{{#limit}}`**
 

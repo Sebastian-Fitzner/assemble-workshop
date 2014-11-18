@@ -1,6 +1,6 @@
 Ein einfaches Anwendungsbeispiel sieht so aus:
 
-*JSON-Datei: homepage.json*
+**JSON-Datei: homepage.json**
 
 ```
 {
@@ -9,7 +9,7 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 }
 ```
 
-*Partial: _simple-article.hbs*
+**Partial: _simple-article.hbs**
 
 ``` hbs
 <div class="teaser">
@@ -20,13 +20,13 @@ Ein einfaches Anwendungsbeispiel sieht so aus:
 </div>
 ```
 
-*Page: index.hbs*
+**Page: index.hbs**
 
 ``` hbs
 ---
 title: testseite
 ---
 \{{#homepage}}
-	\{{partial "_simple-article" }}
+	\{{> _simple-article}}
 \{{/homepage}}
 ```

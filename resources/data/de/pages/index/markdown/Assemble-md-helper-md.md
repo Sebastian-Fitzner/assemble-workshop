@@ -3,7 +3,7 @@ Der `\{{md}}` Helper referenziert immer zu einer Datei und gibt den Inhalt der D
 Dabei muss immer der komplette Projekt-Pfad zur Datei angegegeben werden, z.B.:
 * `resources/data/pages/homepage.md`
 
-_Beispiel:_
+**Beispiel:**
 ``` hbs
 ---
 title: Custom Markdown Page

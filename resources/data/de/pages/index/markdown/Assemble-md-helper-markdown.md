@@ -1,6 +1,6 @@
 Der `\{{#markdown}}`Block Helper kann genutzt werden um direkt Markdown in die Datei zu schreiben. 
 
-_Beispiel:_
+**Beispiel:**
 ``` hbs
 ---
 title: Custom Markdown Page

@@ -1,35 +1,35 @@
 Die Syntax sieht dabei wie folgt aus:
 
-*Simple Expression*
+**Simple Expression**
 
 ```
 \{{ title }}
 ```
 
-*Full Expression with complete Mark Up*
+**Full Expression with complete Mark Up**
 
 ```
 \{{{ title }}}
 ```
 
-*Standard Partials*
+**Standard Partials**
 
 ```
 \{{> _metadata }}
 ```
 
-*Advanced Partials*
+**Advanced Partials**
 
 ```
 \{{partial "_metadata" }}
 ```
 
-*Block Helper*
+**Block Helper**
 ```
 \{{#if }}\{{/if}}
 ```
 
-*Comments*
+**Comments**
 
 ```
 \{{! comment }}

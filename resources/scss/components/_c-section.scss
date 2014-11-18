@@ -85,6 +85,14 @@
 		}
 	}
 
+	em, i {
+		font-style: italic;
+		background: #999;
+		color: #fff;
+		padding: 0.1em 0.3em;
+		letter-spacing: 1px;
+	}
+
 	.section__lesson {
 		position: absolute;
 		bottom: -50px;

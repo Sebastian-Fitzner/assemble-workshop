@@ -8,4 +8,4 @@ Oder der Block-Helper `\{{#with}}`:
 
 * `\{{#with my-data-file}}\{{/with}}`
 
-Der Pfad zur Datei spielt keine Rolle, deshalb ist es wichtig, dass die JSON-Dateien wieder eindeutig sind.
+Der Pfad zur Datei spielt keine Rolle, deshalb ist es wichtig, dass die JSON-Dateien ebenfalls eindeutig sind.

@@ -11,6 +11,6 @@ Wenn man diese Daten nun benutzen möchte, geht das sehr einfach:
 
 ``` hbs
 \{{#homepage.data}}
-		\{{partial "_article" }}
+		\{{> _article}}
 \{{/homepage.data}}
 ```
