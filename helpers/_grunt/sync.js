@@ -15,7 +15,7 @@ module.exports = {
 			{
 				cwd: '<%= paths.src %>/bower-components/reveal.js/js',
 				src: 'reveal.js',
-				dest: '<%= paths.dev %>/js/ventor'
+				dest: '<%= paths.dev %>/js/vendor'
 			}
 		]
 	},

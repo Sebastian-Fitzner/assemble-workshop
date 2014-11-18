@@ -101,7 +101,7 @@ module.exports = function (grunt) {
 		'concurrent:syncing',
 		'watchCSS',
 		'cmq',
-		'dataSeparator',
+		// 'dataSeparator',
 		'autoprefixer',
 		'cssmin',
 		'concurrent:build',
