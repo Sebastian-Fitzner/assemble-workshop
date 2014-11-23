@@ -1,4 +1,4 @@
-## Assemble Workshop Slides | version="1.0.0-5"
+## Assemble Workshop Slides | version="1.0.0-6"
 
 ---------------------------------------------------
 
