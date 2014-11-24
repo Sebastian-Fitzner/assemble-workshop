@@ -3,4 +3,4 @@ _Layouts are used for "wrapping" the content of individual pages with common ele
 **An sich gibt es zwei Wege um Templates zu bauen:**
 
  * mit Partials: Standard Partials, welche dann im Template benutzt werden
- * Blocks und Extends: Ein Helper um die Bereiche der Seite seitenspezifisch zu erweitern
+ * Blocks und Extends: Ein Helper um die Bereiche der Seite beliebig zu erweitern

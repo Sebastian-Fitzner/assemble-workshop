@@ -1,3 +1,3 @@
-Assemble bringt einen weiteren sehr netten Helper mit sich um Probleme mit komplexeren Layouts zu lösen. Dieser Helper heißt `\{{#block}}` und macht es sehr einfach bestimmte Regionen in dem Layout zu erweitern/ersetzen.
+Assemble bringt einen sehr netten Helper mit sich um Probleme mit komplexeren Layouts zu lösen. Dieser Helper heißt `\{{#block}}` und macht es sehr einfach bestimmte Blöcke in bestimmten Regionen im Layout zu erweitern/ersetzen.
 
 Leider gibt es keine offizielle Dokumentation dazu. Aber auf der Seite vom [PG](http://www.prototype-generator.com/templating-in-pg/template-layouts--extended.html) wird das Ganze näher beschrieben.
