@@ -47,7 +47,8 @@ module.exports = function (grunt) {
 			app: 9000,
 			test: 9001,
 			livereload: 35729
-		}
+		},
+		pkg: grunt.file.readJSON("package.json")
 	};
 
 	// Load grunt configurations automatically

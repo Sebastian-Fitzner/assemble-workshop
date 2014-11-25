@@ -7,7 +7,7 @@ title: My Page
 partialClass: "green"
 ---
 \{{#with teaser}}
-	\{{> my-partial}}
+	\{{partial "my-partial" ../this}}
 \{{/with}}
 
 ```

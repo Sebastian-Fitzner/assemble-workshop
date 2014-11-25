@@ -1,4 +1,4 @@
-Nun möchten wir eine bestimmte Region mit einer Suchleiste erweitern. Das Ganze sieht so aus:
+Nun möchten wir einen bestimmten Block in einer Region mit einer Suchleiste erweitern. Das Ganze sieht so aus:
 
 {{embed 'resources/data/code/best-practices/templating/page--extended--header.hbs'}}
 

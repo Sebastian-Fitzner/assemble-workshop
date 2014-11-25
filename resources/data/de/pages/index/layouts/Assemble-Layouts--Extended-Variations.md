@@ -2,7 +2,7 @@ Durch die Helper `\{{#block}}` und `\{{#extend}}` können wir auf unterschiedlic
 
 **Layouts seitenspezifisch extenden**
 
-Diese Variante ist sehr stark an das CMS Drupal orientiert und definiert sogenannte Regions im Layout, die mit Blöcken befüllt werden können.
+Diese Variante ist sehr stark an das CMS Drupal orientiert und definiert sogenannte Regions im Layout, die mit Blöcken befüllt werden können. Die Blöcke können dann ersetzt oder erweitert werden.
 
 **Layouts durch Layouts extenden**
 

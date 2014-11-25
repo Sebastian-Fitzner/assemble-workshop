@@ -9,6 +9,21 @@
 		{
 			"data": [
 				{
+					"section-h1": "Voraussetzungen und Themen",
+					"section-h2": "Basiskurs erledigt?!",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/general/Assemble-Dependencies--Adv.md"
+				},
+				{
+					"section-h2": "Themen für den Workshop",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/general/Assemble-Sitemap--Adv.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
 					"section-h1": "Assemble Extended Layouts",
 					"section-h2": "Ein kleiner Einblick"
 				},
@@ -93,10 +108,73 @@
 			]
 		},
 		{
+			"data": [
+				{
+					"section-h1": "Assemble Extended Layouts",
+					"section-h2": "{{#ifBlock}}"
+				},
+				{
+					"section-h2": "Allgemeines",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--ifBlock.md"
+				},
+				{
+					"section-h2": "Überflüssiges Markup entfernen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts__ifBlock-Beispiel.md"
+				}
+			]
+		},
+		{
 			"section-h1": "Aufgabe",
-			"section-h2": "Layouts über Pages extenden",
+			"section-h2": "{{#ifBlock}} in Layouts",
 			"section-class": "is-exercise",
-			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts--Extended-A03.md"
+			"section-md": "resources/data/de/pages/index/layouts/Assemble-Layouts__ifBlock-A01.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Debugging",
+					"section-h2": "Wie wir in Assemble debuggen"
+				},
+				{
+					"section-h2": "Debug-Befehle",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--General.md"
+				},
+				{
+					"section-h2": "{{debug}} und {{log}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--Log.md"
+				},
+				{
+					"section-h2": "this debuggen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--Log-this.md"
+				},
+				{
+					"section-h2": "Versteckte Daten",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--Hidden-Data.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Aufgabe 1",
+					"section-h2": "Debugging in Assemble - Kontexte",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--A01.md"
+				},
+				{
+					"section-h1": "Aufgabe 2",
+					"section-h2": "Debugging in Assemble - Versteckte Daten",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/debug/Assemble-Debugging--A02.md"
+				}
+			]
+
 		},
 		{
 			"data": [
@@ -108,6 +186,49 @@
 					"section-h2": "Allgemeines",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials.md"
+				},
+				{
+					"section-h2": "Parameter und Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Parameters.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context-2.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context-3.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context-4.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context-5.md"
+				},
+				{
+					"section-h2": "Rangliste der Kontexte",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Context-6.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Partials",
+					"section-h2": "Partials im Detail"
 				},
 				{
 					"section-h2": "Partials in Pages",
@@ -124,8 +245,58 @@
 					"section-h2": "Partials Output",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__Output.md"
+				},
+				{
+					"section-h2": "ParseJSON",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Adv-Partials__ParseJSON.md"
 				}
 			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Aufgabe 1",
+					"section-h2": "Erweiterter Partial - Page und JSON Kontext",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Adv-A01.md"
+				},
+				{
+					"section-h1": "Aufgabe 2",
+					"section-h2": "Erweiterter Partial - {{parseJSON}}",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/partials/Assemble-Partials--Adv-A02.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Lodash",
+					"section-h2": "Wie man Variablen in Variablen benutzt"
+				},
+				{
+					"section-h2": "Allgemeines zu Lodash",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/lodash/Assemble-Lodash__General.md"
+				},
+				{
+					"section-h2": "Variablen in YAML Front Matter",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/lodash/Assemble-Lodash__YAML.md"
+				},
+				{
+					"section-h2": "Zusammenfassung",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/lodash/Assemble-Lodash__HBS.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Lodash",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/lodash/Assemble-Lodash__A01.md"
 		},
 		{
 			"section-h1": "Frage-Runde",
