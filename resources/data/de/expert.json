@@ -1,0 +1,63 @@
+{
+	"data": [
+		{
+			"section-h1": "Assemble Workshop",
+			"section-h2": "Template Engine unter der Lupe.",
+			"section-content-classes": "is-centered",
+			"section-md": "resources/data/de/pages/index/general/Intro.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Dokumentation",
+					"section-h2": "Wie erstelle ich Dokumentationen für Entwickler?"
+
+				},
+				{
+					"section-h2": "Warum sollten wir dokumentieren?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__General.md"
+				},
+				{
+					"section-h2": "Wie schafft man das?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__How.md"
+				},
+				{
+					"section-h2": "Dokumentationsstil",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Settings.md"
+				},
+				{
+					"section-h2": "Projekt-Voraussetzungen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Deps.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Dokumentation",
+					"section-h2": "Schritt für Schritt"
+				},
+				{
+					"section-h2": "Die Startseite des Doku-Bereichs",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Front.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Frage-Runde",
+			"section-h2": "Irgendetwas unklar?",
+			"section-class": "is-exercise"
+		},
+		{
+			"section-h1": "Ende ... ",
+			"section-h2": "... im Gelände.",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/general/author-infos.md"
+		}
+	]
+}

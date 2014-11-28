@@ -1,4 +1,4 @@
-Schreibe das bereitgestellte Template um damit darin `\{{#blocks}}` verwendet werden können.
+Schreibe das bereitgestellte Template um, sodass darin `\{{#blocks}}` verwendet werden können.
 
 Erstelle eine neue Seite `page-extend.hbs` und benutze `\{{#extend}}` um die folgenden Blöcke im Layout mit neuen Inhalt zu befüllen: 
 
