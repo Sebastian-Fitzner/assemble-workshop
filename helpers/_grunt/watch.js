@@ -19,23 +19,23 @@ module.exports = {
 			'<%= paths.dev %>/img/**/*.{jpg,png}'
 		]
 	},
-    js: {
-        files: '<%= paths.src %>/js/{,*/}*.js',
-        tasks: 'sync:js'
-    },
-    ajax: {
-        files: '<%= paths.src %>/ajax/**/*.{json,html}',
-        tasks: 'sync:assets'
-    },
-    assets: {
-        files: [
+	js: {
+		files: '<%= paths.src %>/js/{,*/}*.js',
+		tasks: 'sync:js'
+	},
+	ajax: {
+		files: '<%= paths.src %>/ajax/**/*.{json,html}',
+		tasks: 'sync:assets'
+	},
+	assets: {
+		files: [
 			'<%= paths.src %>/assets/**/*'
-			],
-        tasks: 'sync:assets'
-    },
+		],
+		tasks: 'sync:assets'
+	},
 	globbing: {
 		options: {
-		event: ['added', 'deleted']
+			event: ['added', 'deleted']
 		},
 		files: [
 			'<%= paths.helper %>/_grunt/fileindex.js',
@@ -53,22 +53,22 @@ module.exports = {
 	scss: {
 		files: '<%= paths.src %>/scss/**/*',
 		tasks: 'sass:dist',
-	    options: {
+		options: {
 			spawn: false
 		}
 	},
 	templates: {
-		files: ['<%= paths.src %>/{data,templates/layouts,templates/partials}/**/{,*/}*.{md,hbs,yml,json}'],
-	    tasks: ['newer:assemble'],
-	    options: {
+		files: ['<%= paths.src %>/{data/de,templates/layouts,templates/partials}/**/{,*/}*.{md,hbs,yml,json}'],
+		tasks: ['newer:assemble:pages'],
+		options: {
 			spawn: false
 		}
 	},
-    pages: {
-        files: ['<%= paths.src %>/templates/pages/**/{,*/}*.hbs'],
-        tasks: ['newer:assemble:pages'],
-	    options: {
+	pages: {
+		files: ['<%= paths.src %>/templates/pages/**/{,*/}*.hbs'],
+		tasks: ['newer:assemble:pages'],
+		options: {
 			spawn: false
 		}
-    }
+	}
 };

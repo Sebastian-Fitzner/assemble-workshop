@@ -8,6 +8,9 @@ module.exports = {
 		partials: [
 			'<%= paths.src %>/templates/partials/**/*.hbs',
 			'<%= paths.src %>/templates/layouts/tpl-default.hbs'
+		],
+		collections: [
+			'Modules', 'Components', 'Layout'
 		]
 	},
 	pages: {

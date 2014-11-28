@@ -9,6 +9,21 @@
 		{
 			"data": [
 				{
+					"section-h1": "Voraussetzungen und Themen",
+					"section-h2": "Basic und Advanced erledigt?!",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/general/Assemble-Dependencies--Exp.md"
+				},
+				{
+					"section-h2": "Themen für den Workshop",
+					"section-content-classes": "is-two-columns",
+					"section-md": "resources/data/de/pages/index/general/Assemble-Sitemap--Exp.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
 					"section-h1": "Assemble Dokumentation",
 					"section-h2": "Wie erstelle ich Dokumentationen für Entwickler?"
 

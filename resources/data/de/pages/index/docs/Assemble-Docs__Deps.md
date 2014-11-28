@@ -11,4 +11,4 @@ Um eine Doku zu automatisieren, müssen folgende Schritte durchgeführt werden:
 7. Lo-Dash in YAML nutzen
 8. Konfigurationsdatei (`siteconfig.json`) nutzen
 
-_PG hat die Option, Dokumenationen im Doku-Stil 1 zu bauen. Wer zusätzlich noch die PG Methodik auswählt, bekommt eine Standard-Dokumenation ausgebaut._
+_PG hat die Option, Dokumentationen im Doku-Stil 1 zu bauen. Wer zusätzlich noch die PG Methodik auswählt, bekommt eine Standard-Dokumentation ausgebaut._
