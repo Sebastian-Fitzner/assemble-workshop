@@ -60,6 +60,11 @@
 					"section-h2": "Die Startseite des Doku-Bereichs",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Front.md"
+				},
+				{
+					"section-h2": "Navigation automtatisch generieren",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Nav-Generation.md"
 				}
 			]
 		},

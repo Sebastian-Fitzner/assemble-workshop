@@ -8,7 +8,7 @@
    - JSON-Handling VS Pages
 3. Factories
    - Was sind Factories?
-   - Helper im Detail
+   - `\{{#extend}}` die 2. und der Factory-Helper
    - Beispiele
 4. Performance
    - Optimieren von Projekten
