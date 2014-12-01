@@ -65,6 +65,75 @@
 					"section-h2": "Navigation automtatisch generieren",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Nav-Generation.md"
+				},
+				{
+					"section-h2": "Navigation automtatisch generieren",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Nav-Generation--2.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Standard-Doku einrichten",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__A01.md",
+			"section-lesson": "Assemble-Expert/_LESSONS/Lesson-01__Documenation"
+		},
+		{
+			"section-h1": "Assemble Dokumentation",
+			"section-h2": "Optimierungen",
+			"section-content-classes": "is-two-columns",
+			"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Optimize.md"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Dokumentation",
+					"section-h2": "Collections"
+				},
+				{
+					"section-h2": "Allgemeines",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection.md"
+				},
+				{
+					"section-h2": "Anwendungsfall",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Use-Case.md"
+				},
+				{
+					"section-h2": "Status Quo",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Status-Quo.md"
+				},
+				{
+					"section-h2": "Hilf uns, Assemble!",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Help-Us.md"
+				},
+				{
+					"section-h2": "Automatisieren",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Result.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Dokumentation",
+					"section-h2": "Collections Beispiel"
+				},
+				{
+					"section-h2": "Pages",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Example-Pages.md"
+				},
+				{
+					"section-h2": "Collections",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Example-Collection.md"
 				}
 			]
 		},
