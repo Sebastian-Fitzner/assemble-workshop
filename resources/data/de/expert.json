@@ -134,8 +134,217 @@
 					"section-h2": "Collections",
 					"section-content-classes": "is-small",
 					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Example-Collection.md"
+				},
+				{
+					"section-h2": "Sitemap",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--Example-Sitemap.md"
 				}
 			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Aufgabe",
+					"section-h2": "Collections einsetzen",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--A01.md",
+					"section-lesson": "Assemble-Expert/_LESSONS/Lesson-02__Documenation-and-Collection"
+				},
+				{
+					"section-h1": "Aufgabe",
+					"section-h2": "Collections mal Tricky",
+					"section-class": "is-exercise",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Collection--A02.md",
+					"section-lesson": "Assemble-Expert/_LESSONS/Lesson-03__Documenation-and-Collection"
+				}
+			]
+
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Dokumentation",
+					"section-h2": "Assemble Einstellungen"
+				},
+				{
+					"section-h2": "URL anpassen",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Settings-URL.md"
+				},
+				{
+					"section-h2": "{{assets}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Settings-Assets.md"
+				},
+				{
+					"section-h2": "{{assets}}",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/docs/Assemble-Docs__Settings-Assets-2.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Factories",
+					"section-h2": "Einführung in Micro-Templates"
+				},
+				{
+					"section-h2": "Was sind Micro-Templates oder Factories?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__What.md"
+				},
+				{
+					"section-h2": "Factory Helpers",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Helpers.md"
+				},
+				{
+					"section-h2": "Factory Numero Uno (Adv Factory)",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Factory.md"
+				},
+				{
+					"section-h2": "Factory Numero Due ({{#factory}})",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__FExtend.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Factories",
+					"section-h2": "Beispiel"
+				},
+				{
+					"section-h2": "Ausgangssituation",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Example--Status-Quo.md"
+				},
+				{
+					"section-h2": "Syntax mit Advanced Factory Helper",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Example--Result-01.md"
+				},
+				{
+					"section-h2": "Syntax mit Extend Factory Helper {{#factory}}",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Example--Result-02.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Factories",
+					"section-h2": "Advanced Factory Helper"
+				},
+				{
+					"section-h2": "Factory-Schreibweise",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Adv-Factory--Tpl.md"
+				},
+				{
+					"section-h2": "Settings: Advanced Factory Helper",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__Adv-Factory--Settings.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Factories",
+					"section-h2": "{{#factory}}"
+				},
+				{
+					"section-h2": "Factory-Schreibweise",
+					"section-content-classes": "is-centered",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__#factory--Tpl.md"
+				},
+				{
+					"section-h2": "Settings: #factory",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__#factory--Settings.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "Factories",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/mtpl/Assemble-MTPL__A01.md",
+			"section-lesson": "Assemble-Expert/_LESSONS/Lesson-04__Factory"
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Mehrsprachigkeit",
+					"section-h2": "i18n"
+				},
+				{
+					"section-h2": "Allgemeines",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__General.md"
+				},
+				{
+					"section-h2": "Mehrsprachigkeit über Pages in Assemble",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Pages.md"
+				},
+				{
+					"section-h2": "Mehrsprachigkeit über Data in Assemble",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Data.md"
+				},
+				{
+					"section-h2": "Was ist nun besser?",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Which.md"
+				}
+			]
+		},
+		{
+			"data": [
+				{
+					"section-h1": "Assemble Mehrsprachigkeit",
+					"section-h2": "Grunt Settings"
+				},
+				{
+					"section-h2": "Allgemeines",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Grunt-General.md"
+				},
+				{
+					"section-h2": "Asset-Verteilung",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Grunt-Assets.md"
+				},
+				{
+					"section-h2": "Sprachdatei und Lo-Dash",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Lo-Dash.md"
+				},
+				{
+					"section-h2": "Assemble Task",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Assemble.md"
+				},
+				{
+					"section-h2": "Watch Task",
+					"section-content-classes": "is-small",
+					"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__Grunt-Watch.md"
+				}
+			]
+		},
+		{
+			"section-h1": "Aufgabe",
+			"section-h2": "i18n",
+			"section-class": "is-exercise",
+			"section-md": "resources/data/de/pages/index/i18n/Assemble-i18n__A01.md",
+			"section-lesson": "Assemble-Expert/_LESSONS/Lesson-05__i18n"
 		},
 		{
 			"section-h1": "Frage-Runde",

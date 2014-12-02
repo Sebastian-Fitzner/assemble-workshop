@@ -59,14 +59,14 @@ module.exports = {
 	},
 	templates: {
 		files: ['<%= paths.src %>/{data/de,templates/layouts,templates/partials}/**/{,*/}*.{md,hbs,yml,json}'],
-		tasks: ['newer:assemble:pages'],
+		tasks: ['newer:assemble:pagesDE'],
 		options: {
 			spawn: false
 		}
 	},
 	pages: {
 		files: ['<%= paths.src %>/templates/pages/**/{,*/}*.hbs'],
-		tasks: ['newer:assemble:pages'],
+		tasks: ['newer:assemble:pagesDE'],
 		options: {
 			spawn: false
 		}

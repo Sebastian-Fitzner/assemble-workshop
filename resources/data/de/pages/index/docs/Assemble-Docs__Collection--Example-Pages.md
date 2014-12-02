@@ -3,21 +3,21 @@ Wir erstellen wie gehabt unsere Pages mit entsprechenden tags.
 ``` hbs
 ---
 title: Layouts and Grids
-type: layout
+sitemap: layout
 ---
 ....
 ```
 ``` hbs
 ---
 title: Carousel
-type: module
+sitemap: module
 ---
 ....
 ```
 ``` hbs
 ---
 title: Article
-type: component
+sitemap: component
 ---
 ....
 ```
